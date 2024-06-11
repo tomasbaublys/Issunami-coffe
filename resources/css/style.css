@@ -120,18 +120,21 @@ footer .container {
   }
 }
 
-@media only screen and (max-width: 389px ) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .gallery img {
-    width: 100%;
-    margin: 0;
-  }
-
-  footer .copyright {
-    display: none;
-  }
-}
+@media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      h1 {
+        font-size: 2rem;
+      }
+    
+      .gallery img {
+        width: 100%;
+        margin: 0;
+      }
+    
+      footer .copyright {
+        display: none;
+      }
+    }
 
